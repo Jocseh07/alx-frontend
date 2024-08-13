@@ -203,6 +203,7 @@ html {
 }
 
 .section-header {
+  padding: var(--section-header-padding);
   text-align: var(--section-header-align);
 }
 
@@ -213,25 +214,6 @@ html {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
-}
-
-.section-title {
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-xx-large);
-}
-
-.section-tagline,
-.card-category {
-  color: var(--color-primary);
-}
-
-.section-tagline {
-  text-transform: var(--section-tagline-transform);
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
 }
 
 .container {
